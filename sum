@@ -1,0 +1,9 @@
+#!/bin/bash
+# Author: Dingran Lu
+sum=0
+# this is my comment hihihi
+for arg in $@ #3
+do
+    sum=$((arg + sum))
+done
+echo $sum
